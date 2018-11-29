@@ -1,4 +1,4 @@
-# README
+# Early genomic detection of the Cosmopolitan Genotype of Dengue Virus 2 in Angola, 2018
 
 This folder contains raw and processed sequencing data related to the sequencing of a Cosmopolitan genotype dengue 2 virus in Angola, Luanda. The protocol used for sequencing is explained in detail in the publication ‘Early genomic detection of the Cosmopolitan Genotype of Dengue Virus 2 in Angola, 2018’, by Hill et al. This is currently under review. Please note that the data here include the positive sample, and two different negative controls that were processed and sequenced along with the positive sample (including a water control extracted with the dengue sample and an additional water control introduced at cDNA synthesis).
 
