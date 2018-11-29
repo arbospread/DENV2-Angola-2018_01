@@ -1,0 +1,64 @@
+##fileformat=VCFv4.2
+##INFO=<ID=TotalReads,Number=1,Type=Integer,Description="The number of event-space reads used to call the variant">
+##INFO=<ID=SupportFraction,Number=1,Type=Float,Description="The fraction of event-space reads that support the variant">
+##INFO=<ID=BaseCalledReadsWithVariant,Number=1,Type=Integer,Description="The number of base-space reads that support the variant">
+##INFO=<ID=BaseCalledFraction,Number=1,Type=Float,Description="The fraction of base-space reads that support the variant">
+##INFO=<ID=AlleleCount,Number=1,Type=Integer,Description="The inferred number of copies of the allele">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	sample
+LC121816        1184    .       T       C       1273.1  PASS    BaseCalledReadsWithVariant=125;BaseCalledFraction=0.600962;TotalReads=188;AlleleCount=1;SupportFraction=0.772746        GT      1
+LC121816        1199    .       C       T       621.1   PASS    BaseCalledReadsWithVariant=144;BaseCalledFraction=0.692308;TotalReads=188;AlleleCount=1;SupportFraction=0.752924        GT      1
+LC121816        1317    .       C       T       978.3   PASS    BaseCalledReadsWithVariant=118;BaseCalledFraction=0.567308;TotalReads=188;AlleleCount=1;SupportFraction=0.885666        GT      1
+LC121816        1996    .       G       A       214.1   PASS    BaseCalledReadsWithVariant=17;BaseCalledFraction=0.485714;TotalReads=34;AlleleCount=1;SupportFraction=0.581217  GT      1
+LC121816        2153    .       C       T       226.5   PASS    BaseCalledReadsWithVariant=28;BaseCalledFraction=0.8;TotalReads=34;AlleleCount=1;SupportFraction=0.862214       GT      1
+LC121816        2264    .       G       A       251.9   PASS    BaseCalledReadsWithVariant=27;BaseCalledFraction=0.818182;TotalReads=32;AlleleCount=1;SupportFraction=0.903236  GT      1
+LC121816        2345    .       G       A       103.8   PASS    BaseCalledReadsWithVariant=27;BaseCalledFraction=0.794118;TotalReads=22;AlleleCount=1;SupportFraction=0.905273  GT      1
+LC121816        2366    .       T       C       321.1   PASS    BaseCalledReadsWithVariant=28;BaseCalledFraction=0.875;TotalReads=21;AlleleCount=1;SupportFraction=0.883316     GT      1
+LC121816        2369    .       T       G       321.1   PASS    BaseCalledReadsWithVariant=24;BaseCalledFraction=0.774194;TotalReads=21;AlleleCount=1;SupportFraction=0.940848  GT      1
+LC121816        2411    .       T       C       125.3   PASS    BaseCalledReadsWithVariant=12;BaseCalledFraction=0.571429;TotalReads=19;AlleleCount=1;SupportFraction=0.576371  GT      1
+LC121816        2420    .       T       C       125.3   PASS    BaseCalledReadsWithVariant=15;BaseCalledFraction=0.714286;TotalReads=19;AlleleCount=1;SupportFraction=0.63853   GT      1
+LC121816	2547	.	T	C	2256.1	PASS	BaseCalledReadsWithVariant=159;BaseCalledFraction=0.722727;TotalReads=199;AlleleCount=1;SupportFraction=0.916209	GT	1
+LC121816	2615	.	T	A	1780.2	PASS	BaseCalledReadsWithVariant=141;BaseCalledFraction=0.640909;TotalReads=199;AlleleCount=1;SupportFraction=0.949174	GT	1
+LC121816	2645	.	T	C	1103.2	PASS	BaseCalledReadsWithVariant=151;BaseCalledFraction=0.686364;TotalReads=199;AlleleCount=1;SupportFraction=0.864878	GT	1
+LC121816	2774	.	C	T	1532.9	PASS	BaseCalledReadsWithVariant=228;BaseCalledFraction=0.542857;TotalReads=370;AlleleCount=1;SupportFraction=0.845426	GT	1
+LC121816	2796	.	C	T	3598.0	PASS	BaseCalledReadsWithVariant=238;BaseCalledFraction=0.566667;TotalReads=376;AlleleCount=1;SupportFraction=0.856749	GT	1
+LC121816	2801	.	C	T	3598.0	PASS	BaseCalledReadsWithVariant=278;BaseCalledFraction=0.661905;TotalReads=376;AlleleCount=1;SupportFraction=0.78998	GT	1
+LC121816	2897	.	T	C	2493.2	PASS	BaseCalledReadsWithVariant=297;BaseCalledFraction=0.707143;TotalReads=376;AlleleCount=1;SupportFraction=0.928406	GT	1
+LC121816	2979	.	G	A	3359.4	PASS	BaseCalledReadsWithVariant=375;BaseCalledFraction=0.892857;TotalReads=376;AlleleCount=1;SupportFraction=0.927072	GT	1
+LC121816	3267	.	G	A	5121.3	PASS	BaseCalledReadsWithVariant=476;BaseCalledFraction=0.780328;TotalReads=552;AlleleCount=1;SupportFraction=0.939603	GT	1
+LC121816	3483	.	T	C	2254.9	PASS	BaseCalledReadsWithVariant=309;BaseCalledFraction=0.806789;TotalReads=350;AlleleCount=1;SupportFraction=0.915922	GT	1
+LC121816	3629	.	T	C	2676.7	PASS	BaseCalledReadsWithVariant=278;BaseCalledFraction=0.844985;TotalReads=300;AlleleCount=1;SupportFraction=0.907614	GT	1
+LC121816	4077	.	T	C	1466.7	PASS	BaseCalledReadsWithVariant=124;BaseCalledFraction=0.610837;TotalReads=162;AlleleCount=1;SupportFraction=0.950774	GT	1
+LC121816	4277	.	C	T	877.1	PASS	BaseCalledReadsWithVariant=88;BaseCalledFraction=0.682171;TotalReads=118;AlleleCount=1;SupportFraction=0.702951	GT	1
+LC121816	4280	.	T	C	877.1	PASS	BaseCalledReadsWithVariant=77;BaseCalledFraction=0.596899;TotalReads=118;AlleleCount=1;SupportFraction=0.773579	GT	1
+LC121816	5108	.	C	T	255.0	PASS	BaseCalledReadsWithVariant=28;BaseCalledFraction=0.933333;TotalReads=28;AlleleCount=1;SupportFraction=0.868393	GT	1
+LC121816	5234	.	A	C	471.2	PASS	BaseCalledReadsWithVariant=10;BaseCalledFraction=0.322581;TotalReads=27;AlleleCount=1;SupportFraction=0.635778	GT	1
+LC121816	5240	.	T	C	471.2	PASS	BaseCalledReadsWithVariant=25;BaseCalledFraction=0.806452;TotalReads=27;AlleleCount=1;SupportFraction=0.941716	GT	1
+LC121816	5396	.	C	T	177.1	PASS	BaseCalledReadsWithVariant=28;BaseCalledFraction=0.903226;TotalReads=28;AlleleCount=1;SupportFraction=0.794085	GT	1
+LC121816	5435	.	T	C	232.2	PASS	BaseCalledReadsWithVariant=23;BaseCalledFraction=0.638889;TotalReads=29;AlleleCount=1;SupportFraction=0.632837	GT	1
+LC121816	5561	.	T	C	132.0	PASS	BaseCalledReadsWithVariant=27;BaseCalledFraction=0.75;TotalReads=33;AlleleCount=1;SupportFraction=0.811557	GT	1
+LC121816	5789	.	G	A	217.5	PASS	BaseCalledReadsWithVariant=28;BaseCalledFraction=0.777778;TotalReads=33;AlleleCount=1;SupportFraction=0.848887	GT	1
+LC121816	5817	.	A	C	511.8	PASS	BaseCalledReadsWithVariant=25;BaseCalledFraction=0.694444;TotalReads=33;AlleleCount=1;SupportFraction=0.96532	GT	1
+LC121816	5819	.	G	A	511.8	PASS	BaseCalledReadsWithVariant=27;BaseCalledFraction=0.75;TotalReads=33;AlleleCount=1;SupportFraction=0.923208	GT	1
+LC121816	6815	.	T	G	1002.8	PASS	BaseCalledReadsWithVariant=157;BaseCalledFraction=0.638211;TotalReads=220;AlleleCount=1;SupportFraction=0.821618	GT	1
+LC121816	7025	.	A	G	1105.1	PASS	BaseCalledReadsWithVariant=189;BaseCalledFraction=0.768293;TotalReads=220;AlleleCount=1;SupportFraction=0.853597	GT	1
+LC121816	7561	.	C	T	1426.5	PASS	BaseCalledReadsWithVariant=332;BaseCalledFraction=0.796163;TotalReads=300;AlleleCount=1;SupportFraction=0.867834	GT	1
+LC121816	7574	.	T	C	2786.7	PASS	BaseCalledReadsWithVariant=248;BaseCalledFraction=0.593301;TotalReads=299;AlleleCount=1;SupportFraction=0.89513	GT	1
+LC121816	7601	.	C	T	2487.1	PASS	BaseCalledReadsWithVariant=354;BaseCalledFraction=0.848921;TotalReads=293;AlleleCount=1;SupportFraction=0.906572	GT	1
+LC121816	7640	.	C	T	296.7	PASS	BaseCalledReadsWithVariant=287;BaseCalledFraction=0.71393;TotalReads=45;AlleleCount=1;SupportFraction=0.761412	GT	1
+LC121816	7892	.	C	A	439.0	PASS	BaseCalledReadsWithVariant=41;BaseCalledFraction=0.803922;TotalReads=46;AlleleCount=1;SupportFraction=0.912045	GT	1
+LC121816	7964	.	A	G	408.2	PASS	BaseCalledReadsWithVariant=37;BaseCalledFraction=0.72549;TotalReads=46;AlleleCount=1;SupportFraction=0.948952	GT	1
+LC121816	7982	.	C	T	223.2	PASS	BaseCalledReadsWithVariant=39;BaseCalledFraction=0.764706;TotalReads=46;AlleleCount=1;SupportFraction=0.892481	GT	1
+LC121816	8045	.	C	T	309.2	PASS	BaseCalledReadsWithVariant=28;BaseCalledFraction=0.54902;TotalReads=46;AlleleCount=1;SupportFraction=0.921084	GT	1
+LC121816	8066	.	C	T	198.1	PASS	BaseCalledReadsWithVariant=44;BaseCalledFraction=0.862745;TotalReads=46;AlleleCount=1;SupportFraction=0.904069	GT	1
+LC121816	8156	.	G	A	145.3	PASS	BaseCalledReadsWithVariant=25;BaseCalledFraction=0.757576;TotalReads=26;AlleleCount=1;SupportFraction=0.895518	GT	1
+LC121816	8315	.	T	G	178.0	PASS	BaseCalledReadsWithVariant=21;BaseCalledFraction=0.75;TotalReads=24;AlleleCount=1;SupportFraction=0.863359	GT	1
+LC121816	8372	.	C	T	76.6	PASS	BaseCalledReadsWithVariant=22;BaseCalledFraction=0.846154;TotalReads=8;AlleleCount=1;SupportFraction=0.887125	GT	1
+LC121816	8380	.	GA	G	76.6	PASS	BaseCalledReadsWithVariant=7;BaseCalledFraction=0.269231;TotalReads=8;AlleleCount=1;SupportFraction=0.569294	GT	1
+LC121816	8401	.	G	A	76.6	PASS	BaseCalledReadsWithVariant=13;BaseCalledFraction=0.65;TotalReads=8;AlleleCount=1;SupportFraction=0.905819	GT	1
+LC121816	8519	.	G	A	586.2	PASS	BaseCalledReadsWithVariant=235;BaseCalledFraction=0.588972;TotalReads=177;AlleleCount=1;SupportFraction=0.764382	GT	1
+LC121816	8678	.	A	G	710.8	PASS	BaseCalledReadsWithVariant=95;BaseCalledFraction=0.463415;TotalReads=177;AlleleCount=1;SupportFraction=0.819888	GT	1
+LC121816	8765	.	C	T	1216.3	PASS	BaseCalledReadsWithVariant=153;BaseCalledFraction=0.746341;TotalReads=177;AlleleCount=1;SupportFraction=0.933817	GT	1
+LC121816	8903	.	C	T	755.4	PASS	BaseCalledReadsWithVariant=146;BaseCalledFraction=0.712195;TotalReads=177;AlleleCount=1;SupportFraction=0.850862	GT	1
+LC121816	8927	.	G	A	1505.6	PASS	BaseCalledReadsWithVariant=59;BaseCalledFraction=0.287805;TotalReads=177;AlleleCount=1;SupportFraction=0.610849	GT	1
+LC121816	9035	.	T	C	1014.6	PASS	BaseCalledReadsWithVariant=173;BaseCalledFraction=0.843902;TotalReads=177;AlleleCount=1;SupportFraction=0.849433	GT	1
