@@ -16,7 +16,7 @@ Files are named according to file type and barcode. Pool A and Pool B refer to t
 ## File types
 The file types are identifiable by the suffix of the file name. Specifically, file types are:
 
-- `.fast5`: Demultiplexed raw reads from that barcode 
+- `.fast5`: Demultiplexed raw reads from that barcode (only available under [releases](releases/))
 - `.fasta`: Basecalled reads from that barcode 
 - `.sorted.bam`: bwa mapped BAM file of basecalled reads for each barcode, sorted using samtools 
 - `.trimmed.sorted.bam`: BAM file trimmed to the external of each primer (i.e., primer regions retained)
